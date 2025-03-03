@@ -58,7 +58,7 @@ alert('item completed');
               ✖
             </button> */}
         <img src="../icons8-delete-24.png" alt="delete-icon" onClick={() => removeTask(index)} style={{marginLeft: '15px', height: '25px'}} />
-        <img src="../icons8-tick-48.png" alt="delete-icon" onClick={() => completedTask ()} style={{marginLeft: '15px', height: '25px'}} />
+        <img src="../icons8-tick-48.png" alt="completed-icon" onClick={() => completedTask ()} style={{marginLeft: '15px', height: '25px'}} />
         
           </li>
         ))}
